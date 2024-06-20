@@ -13,7 +13,7 @@ export default function Card(props){
       <div>
         <div className="container--image">
           <p className="box--top-left font">SOLD OUT</p>
-          <img src={props.img} height="335px" width="200px" alt="image of swimmer"/>
+          <img src={props.img} height="335px" width="200px" alt={props.title}/>
         </div>
         <div className="container--text">
           <div className="flex">
