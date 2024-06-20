@@ -10,7 +10,7 @@ export default function Card(props){
     // Add other prop types here
   };
   return (
-      <div>
+      <div className="card">
         <div className="container--image">
           <p className="box--top-left font">SOLD OUT</p>
           <img src={props.img} height="335px" width="200px" alt={props.title}/>
